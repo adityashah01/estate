@@ -1,0 +1,17 @@
+-- Insert sample agents
+INSERT INTO agents (name, email, phone, bio, image_url, specialization, properties_sold) VALUES
+('Rajesh Sharma', 'rajesh@nepalestate.com', '+977-9841234567', 'Experienced real estate agent specializing in luxury properties in Kathmandu valley with over 10 years of experience.', '/placeholder.svg?height=400&width=400', 'Luxury Residential', 45),
+('Sita Thapa', 'sita@nepalestate.com', '+977-9851234568', 'Expert in commercial properties and land development across Nepal. Helping clients find their perfect investment.', '/placeholder.svg?height=400&width=400', 'Commercial Properties', 38),
+('Bikram Rai', 'bikram@nepalestate.com', '+977-9861234569', 'Specializing in affordable housing and first-time home buyers in Pokhara and surrounding areas.', '/placeholder.svg?height=400&width=400', 'Affordable Housing', 52),
+('Anita Gurung', 'anita@nepalestate.com', '+977-9871234570', 'Dedicated to helping families find their dream homes in the beautiful valleys of Nepal.', '/placeholder.svg?height=400&width=400', 'Residential Properties', 41);
+
+-- Insert sample properties
+INSERT INTO properties (title, description, price, location, bedrooms, bathrooms, area, image_url, property_type, status, agent_id) VALUES
+('Luxury Villa in Budhanilkantha', 'Stunning modern villa with panoramic mountain views, featuring traditional Nepali architecture blended with contemporary design. Includes spacious garden and parking.', 45000000, 'Budhanilkantha, Kathmandu', 5, 4, 350.5, '/placeholder.svg?height=600&width=800', 'Villa', 'available', 1),
+('Modern Apartment in Lazimpat', 'Brand new 3-bedroom apartment in prime location with all modern amenities. Walking distance to restaurants and shopping centers.', 18500000, 'Lazimpat, Kathmandu', 3, 2, 145.0, '/placeholder.svg?height=600&width=800', 'Apartment', 'available', 1),
+('Commercial Space in Thamel', 'Prime commercial property in the heart of Thamel, perfect for restaurants, cafes, or retail businesses. High foot traffic area.', 35000000, 'Thamel, Kathmandu', 0, 2, 200.0, '/placeholder.svg?height=600&width=800', 'Commercial', 'available', 2),
+('Lakeside House in Pokhara', 'Beautiful lakeside property with stunning views of Phewa Lake and the Annapurna range. Perfect for peaceful living or vacation home.', 28000000, 'Lakeside, Pokhara', 4, 3, 220.0, '/placeholder.svg?height=600&width=800', 'House', 'available', 3),
+('Affordable Flat in Bhaktapur', 'Cozy 2-bedroom flat in historic Bhaktapur, close to cultural sites and local markets. Great for first-time buyers.', 8500000, 'Bhaktapur', 2, 1, 85.0, '/placeholder.svg?height=600&width=800', 'Apartment', 'available', 3),
+('Penthouse in Durbar Marg', 'Exclusive penthouse with rooftop terrace, offering 360-degree views of Kathmandu valley. Ultra-luxury finishes throughout.', 65000000, 'Durbar Marg, Kathmandu', 4, 4, 280.0, '/placeholder.svg?height=600&width=800', 'Penthouse', 'sold', 1),
+('Land Plot in Nagarkot', 'Pristine land with breathtaking Himalayan sunrise views. Perfect for building your dream mountain retreat.', 12000000, 'Nagarkot', 0, 0, 500.0, '/placeholder.svg?height=600&width=800', 'Land', 'available', 4),
+('Traditional House in Patan', 'Beautifully restored traditional Newari house with intricate woodwork and courtyards. A piece of living history.', 32000000, 'Patan, Lalitpur', 4, 3, 195.0, '/placeholder.svg?height=600&width=800', 'House', 'available', 4);
