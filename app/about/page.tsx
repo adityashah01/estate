@@ -43,7 +43,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/nepal-real-estate-office-team.jpg"
+                src="1.png"
                 alt="Nepal Estate Team"
                 className="w-full h-full object-cover"
               />

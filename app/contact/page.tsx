@@ -155,11 +155,11 @@ export default function ContactPage() {
                       <div>
                         <p className="font-medium mb-1">Phone</p>
                         <a href="tel:+97714234567" className="text-sm text-[#DC143C] hover:underline">
-                          +977-1-4234567
+                          9703900903
                         </a>
                         <br />
                         <a href="tel:+9779841234567" className="text-sm text-[#DC143C] hover:underline">
-                          +977-984-1234567
+                          9703900903
                         </a>
                       </div>
                     </div>
@@ -171,11 +171,11 @@ export default function ContactPage() {
                       <div>
                         <p className="font-medium mb-1">Email</p>
                         <a href="mailto:info@nepalestate.com" className="text-sm text-[#DC143C] hover:underline">
-                          info@nepalestate.com
+                          aditya.shh15.com
                         </a>
                         <br />
                         <a href="mailto:support@nepalestate.com" className="text-sm text-[#DC143C] hover:underline">
-                          support@nepalestate.com
+                          aditya.shh15.com
                         </a>
                       </div>
                     </div>
